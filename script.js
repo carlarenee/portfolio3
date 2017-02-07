@@ -29,20 +29,20 @@ const animateSubTitle = () => {
 // Make heyo modal for project go from 0 height and width to full page
 const goModalHeyo = () => {
   $('#heyoModal').css({ display: 'block' });
-  $('.heyoImage').css({ height: '55vh', width: '60vw' });
+  $('.heyoImage').css({ height: '40vh', width: '45vw' });
   $('.scene-overlay-3').css({height: '0', width: '0'});
 }
 
 // Make fish modal for project go from 0 height and width to full page
 const goModalMonster = () => {
   $('#monsterFishModal').css({ display: 'block' });
-  $('.monsterImage').css({ height: '55vh', width: '60vw' });
+  $('.monsterImage').css({ height: '40vh', width: '45vw' });
   $('.scene-overlay-3').css({ height: '0', width: '0'});
 }
 
 const goModalMars = () => {
   $('#mfmModal').css({ display: 'block' });
-  $('.marsImage').css({ height: '55vh', width: '60vw' });
+  $('.marsImage').css({ height: '40vh', width: '45vw' });
   $('.scene-overlay-3').css({ height: '0', width: '0'});
 }
 

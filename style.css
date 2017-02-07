@@ -118,6 +118,28 @@ a {
   font-family: 'Barrio', cursive;
 }
 
+.skills {
+  width: 40vw;
+}
+
+#resumeArrow {
+  display: inline-block;
+  height: 3vh;
+  width: 3vw;
+  background-image: url("images/arrow.svg");
+  background-repeat: no-repeat;
+}
+
+#resume {
+  color: #1D6176;
+  font-family: 'Barrio', cursive;
+}
+
+#resume:hover {
+  color: #F56991;
+  font-size: 1.3em;
+}
+
 h2 {
   font-family: 'Barrio', cursive;
   letter-spacing: 10px;
@@ -211,6 +233,27 @@ button {
     background-image: url("images/sky5.jpg");
 }
 
+.contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  overflow: scroll;
+}
+
+.contact a {
+  display: flex;
+  padding: 20px;
+  color: #fafafa;
+  font-family: 'Barrio', cursive;
+  align-items: center;
+}
+
+.downArrow {
+  height: 3vh;
+  width: 3vw;
+}
+
 
 /******************************************************************media query section */
 @media only screen and (max-width: 768px) {
@@ -222,6 +265,7 @@ button {
     #heyoModal img { height: 15vh; width: 30vw; }
     .outerText { flex-direction: column; overflow: scroll;}
     .innerText { font-size: 1em; overflow: scroll;}
+    .contact {flex-direction: column; overflow: scroll;}
 }
 
 
