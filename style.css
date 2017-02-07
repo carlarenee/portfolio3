@@ -97,7 +97,7 @@ body, html {
 }
 
 .innerText {
-  font-size: 1.2em;
+  font-size: 1.5em;
   text-align: justify;
   display: flex;
   margin: 0 2vw;
@@ -110,12 +110,6 @@ body, html {
 #skills {
   font-family: 'Barrio', cursive;
 }
-
-/*#scene2 p {
-  padding: 0 10vw;
-  overflow: scroll;
-  font-size: 1.2em;
-}*/
 
 h2 {
   font-family: 'Barrio', cursive;
@@ -176,9 +170,6 @@ h2 {
 .modal {
   color: #fafafa;
   text-align: center;
-  /*height: 0;
-  width: 0;
-  opacity: 0;*/
   top: 0;
   background-color: rgba(0,0,0,0.5);
   z-index: 10;
