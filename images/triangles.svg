@@ -1,0 +1,12 @@
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 792 406.59"><defs>
+  <style>.cls-1{fill:#fff;}.cls-2{fill:#d1d3d4;opacity:0.3;}</style></defs>
+  <title>triangles</title>
+  <g id="Layer_2" data-name="Layer 2"><rect class="cls-1" x="0.5" width="792" height="406.59"/></g>
+  <g id="Layer_3" data-name="Layer 3"><polygon class="cls-2" points="0.5 406.58 792.5 0 792.5 406.58 0.5 406.58"/>
+  <polygon class="cls-2 triangle1" points="567.5 0 0.47 291.09 0.47 0 567.5 0"/>
+  <polygon class="cls-2 triangle2" points="2.13 0 403.5 406.58 2.13 406.58 2.13 0"/>
+  <polygon class="cls-2 triangle3" points="792 406.58 375.09 0 792 0 792 406.58"/>
+  <polygon class="cls-2 triangle4" points="334.33 377.28 763.49 156.97 763.49 377.28 334.33 377.28"/>
+  <polygon class="cls-2 triangle5" points="403.5 45.56 96.25 203.29 96.25 45.56 403.5 45.56"/>
+  <polygon class="cls-2 triangle6" points="72.73 156.97 290.22 377.28 72.73 377.28 72.73 156.97"/>
+  <polygon class="cls-2 triangle7" points="615.45 281.92 389.54 61.6 615.45 61.6 615.45 281.92"/></g></svg>

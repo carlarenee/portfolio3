@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width = device-wdith, initial-scale = 1">
+  <title>Portfolio 3</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Barrio|Open+Sans+Condensed:300" rel="stylesheet">
+</head>
+<body>
+
+  <svg id="triangles" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 792 455.98"><defs>
+    <style>
+      .cls-2{fill:#FF9F80;opacity:0.3;}#triangles{position:fixed;z-index:0}
+      #tri1{-webkit-animation:mvtri;animation-duration:2s;animation-direction:reverse;}
+      #tri2{-webkit-animation:mvtri2;animation-duration:3s;}
+      #tri3{-webkit-animation:mvtri;animation-duration:2s;}
+      #tri4{-webkit-animation:mvtri2;animation-duration:1s;}
+      #tri5{-webkit-animation:mvtri3;animation-duration:4s;}
+      #tri6{-webkit-animation:mvtri4;animation-duration:4s;}
+      #tri7{-webkit-animation:mvtri2;animation-duration:2s;}
+      #tri8{-webkit-animation:mvtri4;animation-duration:4s;}
+      @-webkit-keyframes mvtri{
+        from {-webkit-transform: rotate(0deg);}
+        to {-webkit-transform: rotate(360deg);}
+      }
+      @-webkit-keyframes mvtri2{
+        from {-webkit-transform: rotate(0deg);}
+        to {-webkit-transform: rotate(-360deg);}
+      }
+      @-webkit-keyframes mvtri3{
+        from {-webkit-transform: rotateX(0deg);}
+        to {-webkit-transform: rotateX(360deg);}
+      }
+      @-webkit-keyframes mvtri4{
+        from {-webkit-transform: rotateX(0deg);}
+        to {-webkit-transform: rotateX(-360deg);}
+      }
+    </style></defs>
+    <g id="Layer_3" data-name="Layer 3">
+    <polygon id="tri1" class="cls-2" points="0.5 455.98 792.5 0 792.5 455.98 0.5 455.98"/>
+    <polygon id="tri2" class="cls-2" points="567.5 0 0.47 326.45 0.47 0 567.5 0"/>
+    <polygon id="tri3" class="cls-2" points="2.13 0 403.5 455.98 2.13 455.98 2.13 0"/>
+    <polygon id="tri4" class="cls-2" points="792 455.98 375.09 0 792 0 792 455.98"/>
+    <polygon id="tri5" class="cls-2" points="334.33 423.12 763.49 176.04 763.49 423.12 334.33 423.12"/>
+    <polygon id="tri6" class="cls-2" points="403.5 51.09 96.25 227.99 96.25 51.09 403.5 51.09"/>
+    <polygon id="tri7" class="cls-2" points="72.73 176.04 290.22 423.12 72.73 423.12 72.73 176.04"/>
+    <polygon id="tri8" class="cls-2" points="615.45 316.17 389.54 69.09 615.45 69.09 615.45 316.17"/></g>
+  </svg>
+
+  <div class="scene" id="scene1">
+    <h1 class="title">Carla Stockalper</h1>
+    <div class="subtitle">
+    <h3 class="w">W</h3><h3 class="e1">E</h3><h3 class="b">B</h3><h3 class="space">&nbsp</h3><h3 class="d">D</h3><h3 class="e2">E</h3><h3 class="v">V</h3><h3 class="e3">E</h3><h3 class="l">L</h3><h3 class="o">O</h3><h3 class="p">P</h3><h3 class="e4">E</h3><h3 class="r">R</h3>
+    </div>
+    <div class="empty"></div>
+    <img class="arrow" src="images/arrow.svg" alt="">
+  </div>
+
+
+  <div class="scene" id="scene2">
+    <div class="scene-overlay">
+      <h2>Thanks for stopping by!</h2>
+      <div class="outerText">
+      <div class="innerText">
+          <p>My name is Carla, I'm a full stack web developer with a background in illustration and marketing.<br /><br />
+          I love building fluid front end interfaces, but am also a sucker for structuring servers and interacting with databases.
+          I am fascinated by the evolution of our interactions with technology; I think about the small, almost subconscious daily
+          exchanges we have with our machines and how they shape our lives; how can we make these more seamless?<br /><br />
+          I've worked as a graphic/web designer, illustrator and marketing director. I have a passion for helping people and businesses
+          tell a story through digital media.<br /><br />
+          When I'm not on a computer, you can find me on a yoga mat! I also run yoga studio with my family back in So Cal.
+          Check out some of my recent projects, cheers!</p>
+        </div>
+      <div class="innerText">
+        <h5><span id="skills">SKILLS:</span><br />HTML5/CSS3 Javascript jQuery Bootstrap ReactJS NodeJS Express Webpack MongoDB PostgreSQL</h5>
+      </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="scene" id="scene3">
+    <div class="scene-overlay scene-overlay-3">
+      <div class="project-container">
+
+        <div class="project-item">
+          <h2>Heyooo</h2>
+          <img src="images/heyooo.png" alt="">
+          <div class="modalbtn modalbtnheyo"></div>
+        </div>
+
+        <div class="project-item">
+          <h2><span class="mars">Message from Mars</span></h2>
+          <img src="images/MfM1.png" alt=""><div class="mmodalbtn"></div>
+           <div class="modalbtn modalbtnmars"></div>
+        </div>
+
+        <div class="project-item">
+          <h2>Monster Fish</h2>
+          <img src="images/MonsterFishStill.png" alt="">
+          <div class="modalbtn modalbtnmonster"></div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="modal" id="heyoModal">
+      <h2>Heyooo</h2>
+      <p>Mood tracking web app that gives you feedback based phrases you type in. The app uses IBM's Watson API
+      to detect the emotional value of your input. It gives back a score, and over time, you can track which emotions
+      are most present day to day. The app offers quotes as well as breathing exercises based on your most prominent emotion.</p>
+      <img class="project-image heyoImage" src="images/heyooo.png" alt="">
+      <h4>Tech Used: Node.js, PSQL, React.js, CSS, IBM Watson API, Animatron</h4>
+      <button><a target="_blank" href="https://heyooo.herokuapp.com/">Try it out</a></button>
+      <button><a target="_blank" href="https://github.com/carlarenee/project4">See it on GitHub</a></button>
+      <div class="x"><h2>X</h2></div>
+    </div>
+
+    <div class="modal" id="mfmModal">
+      <h2><span class="mars">Message from Mars</span></h2>
+      <p>In this group project, we created a web app allowing a user to prompt 3 different machines to interact with each other.
+        The result is a machine generated triptych composed of a random image from Mars, a phrase describing this image, and
+        a second image found by plugging the descriptive phrase into a search engine.</p>
+      <img class="project-image marsImage" src="images/MfM1.png" alt=""><div class="mmodalbtn"></div>
+      <h4>Tech Used: Node.js, PSQL, React.js, CSS, NASA Mars Rover API, Microsoft Vision Data & Bing API</h4>
+      <button><a target="_blank" href="https://messagesfrommars.herokuapp.com/">Try it out</a></button>
+      <button><a target="_blank" href="https://github.com/carlarenee/project3">See it on GitHub</a></button>
+      <div class="x x3"><h2>X</h2></div>
+    </div>
+
+
+    <div class="modal" id="monsterFishModal">
+      <h2>Monster Fish</h2>
+      <p>Single shooter underwater game. You have 20 seconds to shoot and destroy the evil monster fish. The faster the monster
+          moves, the more points you'll earn if you hit them, but beware! If you hit a friendly fish, you lose points, so accuracy
+          counts. You must score 30 points in 20 seconds to beat the level. (Ignore the funny looking landing page, this was a student
+          project with a requirement to have a landing page mimicked from another site)</p>
+      <img class="project-image monsterImage" src="images/MonsterFishStill.png" alt="">
+      <h4>Tech Used: HTML, CSS, jQuery, Adobe Illustrator</h4>
+      <button><a target="_blank" href="https://carlarenee.github.io/waterGame/">Try it out</a></button>
+      <button><a target="_blank" href="https://github.com/carlarenee/waterGame">See it on GitHub</a></button>
+      <div class="x x2"><h2>X</h2></div>
+    </div>
+
+
+  </div>
+
+
+  <div class="scene" id="scene4">
+
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="script.js" type="text/javascript" charset="utf-8" async defer></script>
+</body>
+</html>
+
+
+
