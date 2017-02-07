@@ -4,6 +4,13 @@ body, html {
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
+a {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #0e1717;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
 .scene-overlay {
     display: flex;
     flex-direction: column;
@@ -97,7 +104,7 @@ body, html {
 }
 
 .innerText {
-  font-size: 1.5em;
+  font-size: 1.2em;
   text-align: justify;
   display: flex;
   margin: 0 2vw;
@@ -142,6 +149,10 @@ h2 {
   width: 400px;
 }
 
+.project-item:hover {
+  cursor: pointer;
+}
+
 .project-item img {
   height: 200px;
   width: 400px;
@@ -149,10 +160,8 @@ h2 {
   box-sizing: border-box;
 }
 
-.modalbtn {
-  height: 2vh;
-  width: 2vw;
-  background-color: red;
+.project-item img:hover {
+  border: 5px solid #F56991;
 }
 
 #heyoModal {
@@ -189,6 +198,15 @@ h2 {
   color: #F56991;
 }
 
+button {
+  color: #fafafa;
+  height: 35px;
+  width: 120px;
+  border-radius: 10px;
+  margin: 0 10px;
+  background-color: #D1F2A5;
+}
+
 #scene4 {
     background-image: url("images/sky5.jpg");
 }
@@ -199,10 +217,11 @@ h2 {
     .title { font-size: 1em; }
     h3, p { font-size: 0.8em; }
     #triangles { visibility: hidden; }
-    .project-item img { height: 10vh; width: 25vw; }
-    #heyoModal img { height: 10vh; width: 25vw; }
+    .project-item img { height: 20vh; width: 45vw; }
+    .project-image { height: 15vh; width: 30vw; }
+    #heyoModal img { height: 15vh; width: 30vw; }
     .outerText { flex-direction: column; overflow: scroll;}
-    .innerText { font-size: 1em; }
+    .innerText { font-size: 1em; overflow: scroll;}
 }
 
 
