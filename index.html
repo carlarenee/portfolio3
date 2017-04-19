@@ -3,11 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width = device-wdith, initial-scale = 1">
-  <title>Portfolio 3</title>
-<link rel="stylesheet" type="text/css" href="style.css">
+  <meta name="viewport" content="width = device-width, initial-scale = 1">
+  <title>Carla Stockalper Portfolio</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
 <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Barrio|Open+Sans+Condensed:300" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
 </head>
 <body>
 
@@ -71,7 +72,7 @@
           exchanges we have with our machines and how they shape our lives; how can we make these more seamless?<br /><br />
           I've worked as a graphic/web designer, illustrator and marketing director. I have a passion for helping people and businesses
           tell a story through digital media.<br /><br />
-          When I'm not on a computer, you can find me on a yoga mat! I also run yoga studio with my family back in So Cal.
+          When I'm not on a computer, you can find me on a yoga mat! I also run a yoga studio with my family back in So Cal.
           Check out some of my recent projects, cheers!</p>
         </div>
       <div class="innerText skills">
@@ -86,9 +87,18 @@
   <div class="scene" id="scene3">
 
     <div class="scene-overlay scene-overlay-3">
-    <div><h2>Projects >>></h2></div>
+    <div><h2>Projects</h2></div>
       <div class="project-container">
 
+        <div class="project-item modalbtnmytwocents">
+          <h2>My Two Cents</h2>
+          <img src="images/mytwocents.png" alt="">
+        </div>
+
+        <div class="project-item modalbtncfys">
+          <h2><span class="cfys">Center for Yoga Studies</span></h2>
+          <img src="images/cfys.png" alt="">
+        </div>
 
         <div class="project-item modalbtnheyo">
           <h2>Heyooo</h2>
@@ -106,43 +116,73 @@
         </div>
 
       </div>
+      <div class="scroll"><h2><span class="scrollType">SCROLL > > ></span></h2></div>
+    </div>
+
+    <div class="modal" id="mytwocentsModal">
+      <h2>My Two Cents</h2>
+      <h4>Team Project: Logo Design / Front End Design and Development</h4>
+      <p>Website for charitable donation mobile app. A user may create an account via mobile app which links their bank account of choice.
+      Each purchase made is rounded to the nearest dollar, that change is then donated to charities that the user selects. The goal is to
+      support meaningful causes pennies at a time. Small change for a big impact.</p>
+      <img class="project-image mytwocentsImage" src="images/mytwocents.png" alt="">
+      <h4>Tech Used: HTML5, CSS3, Bootsrap, jQuery</h4>
+      <a target="_blank" href="http://www.mytwocents.nyc/"><button>Try it out</button></a>
+      <a target="_blank" href="https://github.com/carlarenee/website-bootstrap"><button>GitHub</button></a>
+      <div class="x4"><h2>X</h2></div>
+    </div>
+
+    <div class="modal" id="cfysModal">
+      <h2>Center for Yoga Studies</h2>
+      <h4>Solo Project: Logo Design / Web Design / Full Stack App Development</h4>
+      <p>Center for Yoga Studies is an international yoga and lifestyle retreat and training center. Based in San Diego, CA, they
+      offer yoga teacher trainings, week long yoga and surf retreats, and short format workshops that cover an array of
+      healing modalities. They offer programs in Encinitas, CA and at their facility in Nosara, Costa Rica. Full site coming soon.</p>
+      <img class="project-image cfysImage" src="images/cfys.png" alt="">
+      <h4>Tech Used: HTML5, CSS3, Bootsrap, jQuery</h4>
+      <a target="_blank" href="http://centerforyogastudies.com/"><button>Try it out</button></a>
+      <a target="_blank" href="https://github.com/carlarenee/retreat"><button>GitHub</button></a>
+      <div class="x5"><h2>X</h2></div>
     </div>
 
     <div class="modal" id="heyoModal">
       <h2>Heyooo</h2>
+      <h4>Solo Project: Full Stack App Development / Animation</h4>
       <p>Mood tracking web app that gives you feedback based phrases you type in. The app uses IBM's Watson API
       to detect the emotional value of your input. It gives back a score, and over time, you can track which emotions
       are most present day to day. The app offers quotes as well as breathing exercises based on your most prominent emotion.</p>
       <img class="project-image heyoImage" src="images/heyooo.png" alt="">
       <h4>Tech Used: Node.js, PSQL, React.js, CSS, IBM Watson API, Animatron</h4>
-      <button><a target="_blank" href="https://heyooo.herokuapp.com/">Try it out</a></button>
-      <button><a target="_blank" href="https://github.com/carlarenee/project4">See it on GitHub</a></button>
+      <a target="_blank" href="https://heyooo.herokuapp.com/"><button>Try it out</button></a>
+      <a target="_blank" href="https://github.com/carlarenee/project4"><button>GitHub</button></a>
       <div class="x"><h2>X</h2></div>
     </div>
 
     <div class="modal" id="mfmModal">
       <h2><span class="mars">Message from Mars</span></h2>
+      <h4>Team Project: API integration / Database / Front End fetch calls</h4>
       <p>In this group project, we created a web app allowing a user to prompt 3 different machines to interact with each other.
         The result is a machine generated triptych composed of a random image from Mars, a phrase describing this image, and
         a second image found by plugging the descriptive phrase into a search engine.</p>
       <img class="project-image marsImage" src="images/MfM1.png" alt=""><div class="mmodalbtn"></div>
       <h4>Tech Used: Node.js, PSQL, React.js, CSS, NASA Mars Rover API, Microsoft Vision Data & Bing API</h4>
-      <button><a target="_blank" href="https://messagesfrommars.herokuapp.com/">Try it out</a></button>
-      <button><a target="_blank" href="https://github.com/carlarenee/project3">See it on GitHub</a></button>
+      <a target="_blank" href="https://messagesfrommars.herokuapp.com/"><button>Try it out</button></a>
+      <a target="_blank" href="https://github.com/carlarenee/project3"><button>GitHub</button></a>
       <div class="x x3"><h2>X</h2></div>
     </div>
 
 
     <div class="modal" id="monsterFishModal">
       <h2>Monster Fish</h2>
+      <h4>Solo Project: Full Stack App Development / Illustration</h4>
       <p>Single shooter underwater game. You have 20 seconds to shoot and destroy the evil monster fish. The faster the monster
           moves, the more points you'll earn if you hit them, but beware! If you hit a friendly fish, you lose points, so accuracy
           counts. You must score 30 points in 20 seconds to beat the level. (Ignore the funny looking landing page, this was a student
           project with a requirement to have a landing page mimicked from another site)</p>
       <img class="project-image monsterImage" src="images/MonsterFishStill.png" alt="">
       <h4>Tech Used: HTML, CSS, jQuery, Adobe Illustrator</h4>
-      <button><a target="_blank" href="https://carlarenee.github.io/waterGame/">Try it out</a></button>
-      <button><a target="_blank" href="https://github.com/carlarenee/waterGame">See it on GitHub</a></button>
+      <a target="_blank" href="https://carlarenee.github.io/waterGame/"><button>Try it out</button></a>
+      <a target="_blank" href="https://github.com/carlarenee/waterGame"><button>GitHub</button></a>
       <div class="x x2"><h2>X</h2></div>
     </div>
 
@@ -165,7 +205,7 @@
   </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="script.js" type="text/javascript" charset="utf-8" async defer></script>
+  <script src="script/script.js" type="text/javascript" charset="utf-8" async defer></script>
 </body>
 </html>
 
